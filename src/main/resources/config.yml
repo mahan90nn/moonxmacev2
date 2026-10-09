@@ -1,0 +1,48 @@
+# MoonXMaceV2 Configuration
+# Supports versions 1.21 to 26.2 (Paper)
+
+# Whether the plugin is enabled
+enabled: true
+
+# Action bar message shown when hitting a player with a mace
+# Placeholders:
+#   {damage} - the damage dealt
+#   {player} - the target player name
+#   {attacker} - the attacker name
+actionbar:
+  enabled: true
+  message: "<gold>Mace Damage: <red>{damage}</red> <white>to</white> <yellow>{player}</yellow>"
+  # Optional: send to attacker only (true) or broadcast to all (false)
+  broadcast: false
+
+# Damage display formatting
+damage:
+  # Number of decimal places (0 for integer, 1 for 1.0, etc.)
+  decimals: 1
+  # Prefix/suffix for the damage number
+  prefix: ""
+  suffix: ""
+
+# Colors customization
+colors:
+  # Main color of the message
+  main: "<gold>"
+  # Damage number color
+  damage: "<red>"
+  # Player name color
+  player: "<yellow>"
+  # Attacker name color
+  attacker: "<green>"
+
+# Sound played when hitting with mace (optional)
+sound:
+  enabled: false
+  # Sound name from org.sound enum
+  name: "ENTITY_PLAYER_HURT"
+  volume: 1.0
+  pitch: 1.0
+
+# MiniMessage settings
+minimessage:
+  # Whether to parse MiniMessage tags in config
+  parse: true

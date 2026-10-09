@@ -1,0 +1,7 @@
+name: MoonXMaceV2
+version: 1.0.0
+main: com.moonx.macev2.MoonXMaceV2
+api-version: 1.21
+author: MoonX
+description: A mace damage plugin with MiniMessage support.
+prefix: MoonXMaceV2
